@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>task-4-bootstrap</title>
+  </head>
+  <!--  -->
+  <body>
+    <nav class="navbar p-0 sticky-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto my-0 fs-5 fw-bold text-capitalize">
+            <li class="nav-item">
+              <a class="nav-link py-3 mx-2" aria-current="page" href="#"
+                >home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-3 mx-2" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-3 mx-2" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-3 mx-2" href="content.html">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-2 mx-2 mt-2 px-4 blog" href="#"
+                >blog</a
+              >
+            </li>
+          </ul>
+          <div class="search">
+            <a href="#"
+              ><i
+                class="fa-solid fa-magnifying-glass fa-flip-horizontal rounded-circle p-3"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--  -->
+    <section
+      class="landing d-flex flex-column justify-content-center align-items-center text-center position-relative text-uppercase"
+    >
+      <h1 class="display-5 fw-bold mb-3 px-3">good design is good business</h1>
+      <p class="mb-3 fs-5 text-lowercase px-4">
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. ut ultricies
+        sagittis magna commodo. ut eget eros mauris, ut cursus urna. vestibulum
+        ante ipsum primis in faucibus orci luctus et ultrices.
+      </p>
+      <a href="#" class="btn fs-2 fw-bold rounded-3 px-5">learn more</a>
+      <p
+        class="position-absolute top-100 start-50 translate-middle fs-3 rounded-3 py-2 px-3"
+      >
+        our services
+      </p>
+    </section>
+    <!--  -->
+    <section class="services container py-5 text-center">
+      <div class="row justify-content-center align-content-center">
+        <div class="col-lg-3 col-md-6 mb-3">
+          <i class="fa-solid fa-laptop rounded-circle p-4 mb-3"></i>
+          <h3 class="mb-3">web design</h3>
+          <p class="w-100 mx-auto">
+            lorem ipsum dolor sit amet, mauris nec ipsum at las social media
+            lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#" class="fw-bold">details</a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <i
+            class="fa-solid fa-magnifying-glass fa-rotate-90 rounded-circle p-4 mb-3"
+          ></i>
+          <h3 class="mb-3">search optimization</h3>
+          <p class="w-100 mx-auto fs-6">
+            lorem ipsum dolor sit amet, mauris nec ipsum at las social media
+            lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#" class="fw-bold">details</a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <i class="fa-solid fa-cart-shopping rounded-circle p-4 mb-3"></i>
+          <h3 class="mb-3">online shop</h3>
+          <p class="w-100 mx-auto">
+            lorem ipsum dolor sit amet, mauris nec ipsum at las social media
+            lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#" class="fw-bold">details</a>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <i class="fa-solid fa-thumbs-up rounded-circle p-4 mb-3"></i>
+          <h3 class="mb-3">social media</h3>
+          <p class="w-100 mx-auto">
+            lorem ipsum dolor sit amet, mauris nec ipsum at las social media
+            lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#" class="fw-bold">details</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section id="portfolio" class="portfolio py-5 text-capitalize">
+      <div class="container">
+        <div
+          class="haed d-flex flex-wrap justify-content-between align-items-center mb-5"
+        >
+          <h1 class="fw-bold mt-3">our portfolio awesome</h1>
+          <a href="#" class="btn rounded-2 fs-5 mt-3 ms-3">more works</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <img src="images/portfolio.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h2 class="card-title">lorem ipsum dolor sit</h2>
+                <p class="card-text text-light">
+                  consectetur adipiscing elit. ut ultricies sagittis magna
+                  commodo. ut eget eros mauris, ut cursus uma vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <img src="images/portfolio.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h2 class="card-title">lorem ipsum dolor sit</h2>
+                <p class="card-text text-light">
+                  consectetur adipiscing elit. ut ultricies sagittis magna
+                  commodo. ut eget eros mauris, ut cursus uma vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="card">
+              <img src="images/portfolio.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h2 class="card-title">lorem ipsum dolor sit</h2>
+                <p class="card-text text-light">
+                  consectetur adipiscing elit. ut ultricies sagittis magna
+                  commodo. ut eget eros mauris, ut cursus uma vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section id="about" class="offer container py-5">
+      <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-uppercase">what we offer</h1>
+        <p class="w-75 mx-auto">
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. ut ultricies
+          sagittis magna commodo. ut eget eros mauris, ut cursus uma vestibulum
+          ante ipsum primis in faucibus orci luctus et ultrices.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="card-body border-0 d-flex flex-column">
+            <h3 class="card-title">web design</h3>
+            <p class="card-text">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. ut
+              ultricies sagittis magna commodo. ut eget eros mauris, ut cursus
+              uma vestibulum ante ipsum primis in faucibus orci luctus et
+              ultrices.
+            </p>
+            <a href="#" class="btn ms-auto">Card link</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="card-body border-0">
+            <h3 class="card-title">search optimization</h3>
+            <p class="card-text">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. ut
+              ultricies sagittis magna commodo. ut eget eros mauris, ut cursus
+              uma vestibulum ante ipsum primis in faucibus orci luctus et
+              <a href="#" class="fw-bold">ultrices.</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="card-body border-0 d-flex flex-column">
+            <h3 class="card-title">online shop</h3>
+            <p class="card-text">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. ut
+              ultricies sagittis magna commodo. ut eget eros mauris, ut cursus
+              uma vestibulum ante ipsum primis in faucibus orci luctus et
+              ultrices.
+            </p>
+            <a href="#" class="btn ms-auto">Card link</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-3">
+          <div class="card-body border-0">
+            <h3 class="card-title">social media</h3>
+            <p class="card-text">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. ut
+              ultricies sagittis magna commodo. ut eget eros mauris, ut cursus
+              uma vestibulum ante ipsum primis in faucibus orci luctus et
+              <a href="#" class="fw-bold">ultrices.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <hr />
+    <!--  -->
+    <section class="testimonials container pt-5 text-center">
+      <h1 class="text-uppercase fw-bold display-5">testimonials</h1>
+      <p class="w-75 mx-auto fw-bold mb-4">
+        <i class="fa-solid fa-quote-left"></i> lorem ipsum dolor sit amet,
+        consectetur adipiscing elit mauris necip at lacus commodo suscipit
+        praesent sollicitudin enim vel mirhon
+        <i class="fa-solid fa-quote-right"></i>
+      </p>
+      <p class="mb-3">
+        <span class="fw-bold">jon doe</span>/ceo of lorem ipsum
+      </p>
+      <div class="malak d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-user mx-3 p-3 rounded-circle"></i>
+        <i class="fa-solid fa-user mx-3 p-3 rounded-circle"></i>
+        <i class="fa-solid fa-user mx-3 p-3 rounded-circle"></i>
+      </div>
+    </section>
+    <!--  -->
+    <footer>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 line-1">
+            <div class="position-relative my-3">
+              <h3 class="mb-3">bird feeds</h3>
+              <p class="mb-2">check out this great theme</p>
+              <a href="#" class="mb-2">http://adjik.com</a>
+              <p class="mb-2">2 weeks ago</p>
+              <div class="main-title mb-4"></div>
+              <p class="mb-2">check out this great theme</p>
+              <a href="#" class="mb-2">http://adjik.com</a>
+              <p class="mb-2">2 weeks ago</p>
+              <div class="main-title mb-4"></div>
+              <p class="mb-2">check out this great theme</p>
+              <a href="#" class="mb-2">http://adjik.com</a>
+              <p class="mb-2">2 weeks ago</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 line-2">
+            <div class="position-relative my-3">
+              <h3 class="mb-3">news letter</h3>
+              <p>
+                lorem ipsum dolor sit amet, consectetur adip iscing elit. ut
+                ultricies sagittis magna a comm ut eget eros mauris, ut cursus
+              </p>
+              <div class="main-title mb-4"></div>
+              <form class="d-flex flex-column">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label mt-2"
+                    >your email address</label
+                  >
+                  <input type="email" class="form-control mt-3" id="#" />
+                </div>
+                <a href="#" class="btn btn-primary ms-auto px-4 label-link">
+                  sign up
+                </a>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="position-relative my-3">
+              <h3 class="mb-3">recent projects</h3>
+              <div class="d-flex justify-content-around">
+                <div><span></span></div>
+                <div class="d-block ms-2">
+                  <p class="ms-3 mb-2">sketchy business card</p>
+                  <a href="#" class="ms-3 mb-2">http://adjik.com</a>
+                  <p class="ms-3 mb-2">2 weeks ago</p>
+                  <div class="main-title mb-4"></div>
+                </div>
+              </div>
+              <div class="d-flex mt-3 justify-content-around">
+                <div><span></span></div>
+                <div class="d-block ms-2">
+                  <p class="ms-3 mb-2">sketchy business card</p>
+                  <a href="#" class="ms-3 mb-2">http://adjik.com</a>
+                  <p class="ms-3 mb-2">2 weeks ago</p>
+                  <div class="main-title mb-4"></div>
+                </div>
+              </div>
+              <div class="d-flex mt-3 justify-content-around">
+                <div><span></span></div>
+                <div class="d-block ms-2">
+                  <p class="ms-3 mb-2">sketchy business card</p>
+                  <a href="#" class="ms-3 mb-2">http://adjik.com</a>
+                  <p class="ms-3 mb-2">2 weeks ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="my-3">
+              <h3 class="mb-3">contact</h3>
+              <div
+                class="d-flex align-items-center justify-content-around mb-3"
+              >
+                <div><i class="fa-solid fa-phone-volume p-3 Icon"></i></div>
+                <div class="d-block content">
+                  <p>1-000-000-0000</p>
+                  <p>1-000-000-0000</p>
+                </div>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-around mb-3"
+              >
+                <div><i class="fa-solid fa-mobile p-3 Icon"></i></div>
+                <div class="d-block content">
+                  <p>1-000-000-0000</p>
+                  <p>1-000-000-0000</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-around">
+                <div><i class="fa-solid fa-envelope p-3 Icon"></i></div>
+                <div class="d-block content">
+                  <p>abcdefg@bjs.dh</p>
+                  <p>ashfalks.cd</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+    <button type="button" class="btn btn-lg" id="btn-back-to-top">
+      <i class="fa-solid fa-angles-up"></i>
+    </button>
+    <!--  -->
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>
